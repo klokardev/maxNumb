@@ -3,4 +3,6 @@ def max(a, b):
 		return a
 	return b
 
-print(max(4, 2))
+x = int(input("Enter a number: "))
+y = int(input("Enter a number: "))
+print(max(x, y))
